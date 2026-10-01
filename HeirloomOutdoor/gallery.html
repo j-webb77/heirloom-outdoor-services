@@ -1,0 +1,241 @@
+<!-- ============================================================
+     gallery.html — Portfolio
+     ============================================================ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; frame-src 'none'; form-action 'self'; img-src 'self' data:; font-src 'self' https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline'; connect-src 'self'; upgrade-insecure-requests" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta name="theme-color" content="#2C3525" />
+
+  <title>Project Gallery | Heirloom Outdoor Services — The Woodlands, TX</title>
+  <meta name="description"
+        content="Browse recent irrigation, paver, and sod installation projects by Heirloom Outdoor Services in The Woodlands &amp; Conroe, TX. Call (936) 203-6044." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://heirloomoutdoorservices.com/gallery.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Project Gallery | Heirloom Outdoor Services" />
+  <meta property="og:description" content="Irrigation, paver, and sod projects in The Woodlands and Conroe, TX." />
+  <meta property="og:url" content="https://heirloomoutdoorservices.com/gallery.html" />
+  <meta property="og:image" content="https://heirloomoutdoorservices.com/assets/images/branding/og-share.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" type="image/png" href="assets/images/branding/favicon.png" sizes="32x32" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto+Slab:wght@400;600;700;800&display=swap" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/main.js" defer></script>
+</head>
+
+<body data-page="gallery">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header" id="site-header">
+    <div class="container header__inner">
+      <a class="brand" href="index.html" aria-label="Heirloom Outdoor Services — home">
+        <img class="brand__logo" src="assets/images/branding/logo.png" alt="Heirloom Outdoor Services logo" width="200" height="110" />
+      </a>
+      <nav class="nav" id="primary-navigation" aria-label="Primary">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="index.html">Home</a></li>
+          <li><a class="nav__link" href="about.html">About</a></li>
+          <li><a class="nav__link" href="services.html">Services</a></li>
+          <li><a class="nav__link is-active" aria-current="page" href="gallery.html">Gallery</a></li>
+          <li><a class="nav__link" href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav__actions">
+          <a class="btn btn--ghost nav__phone" href="tel:+19362036044">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .58 3.6 1 1 0 0 1-.25 1z"/></svg>
+            (936) 203-6044
+          </a>
+          <a class="btn btn--primary" href="contact.html">Free Estimate</a>
+        </div>
+      </nav>
+      <button class="nav-toggle" type="button" id="nav-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-navigation">
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+  <div class="nav-scrim" id="nav-scrim" hidden></div>
+
+  <main id="main-content">
+
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li aria-current="page">Gallery</li>
+          </ol>
+        </nav>
+        <h1 class="page-hero__title" id="page-title">Project Gallery</h1>
+        <p class="page-hero__lede">
+          A look at irrigation systems, paver hardscapes, and sod installs we've
+          completed for homeowners around Montgomery County. Tap any photo to enlarge.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="gallery-heading">
+      <div class="container">
+        <h2 class="visually-hidden" id="gallery-heading">Project photos</h2>
+
+        <ul class="gallery__grid" id="gallery-grid">
+          <li class="gallery__item reveal">
+            <button class="gallery__button" type="button" data-full="assets/images/gallery/gallery-1.jpg" data-caption="Paver patio and walkway — The Woodlands" aria-label="View larger: Paver patio and walkway in The Woodlands">
+              <img src="assets/images/gallery/gallery-1.jpg" alt="Newly installed paver patio and curved walkway behind a Woodlands home" width="800" height="600" loading="lazy" decoding="async" />
+              <span class="gallery__caption">Paver Patio &amp; Walkway</span>
+            </button>
+          </li>
+          <li class="gallery__item reveal">
+            <button class="gallery__button" type="button" data-full="assets/images/gallery/gallery-2.jpg" data-caption="Full sprinkler system installation — Conroe" aria-label="View larger: Full sprinkler system installation in Conroe">
+              <img src="assets/images/gallery/gallery-2.jpg" alt="Sprinkler heads watering a freshly installed lawn in Conroe, Texas" width="800" height="600" loading="lazy" decoding="async" />
+              <span class="gallery__caption">Sprinkler System Install</span>
+            </button>
+          </li>
+          <li class="gallery__item reveal">
+            <button class="gallery__button" type="button" data-full="assets/images/gallery/gallery-3.jpg" data-caption="St. Augustine sod installation — Magnolia" aria-label="View larger: St. Augustine sod installation in Magnolia">
+              <img src="assets/images/gallery/gallery-3.jpg" alt="Fresh rolls of St. Augustine sod being laid on a graded lawn" width="800" height="600" loading="lazy" decoding="async" />
+              <span class="gallery__caption">St. Augustine Sod Install</span>
+            </button>
+          </li>
+          <li class="gallery__item reveal">
+            <button class="gallery__button" type="button" data-full="assets/images/gallery/gallery-4.jpg" data-caption="Retaining wall and bed renovation — Spring" aria-label="View larger: Retaining wall and bed renovation in Spring">
+              <img src="assets/images/gallery/gallery-4.jpg" alt="Stone retaining wall with reshaped planting beds and fresh mulch" width="800" height="600" loading="lazy" decoding="async" />
+              <span class="gallery__caption">Retaining Wall &amp; Beds</span>
+            </button>
+          </li>
+          <li class="gallery__item reveal">
+            <button class="gallery__button" type="button" data-full="assets/images/gallery/gallery-5.jpg" data-caption="Sprinkler valve and head repair — The Woodlands" aria-label="View larger: Sprinkler valve and head repair in The Woodlands">
+              <img src="assets/images/gallery/gallery-5.jpg" alt="Technician repairing a sprinkler valve box in a residential yard" width="800" height="600" loading="lazy" decoding="async" />
+              <span class="gallery__caption">Valve &amp; Head Repair</span>
+            </button>
+          </li>
+          <li class="gallery__item reveal">
+            <button class="gallery__button" type="button" data-full="assets/images/gallery/gallery-6.jpg" data-caption="Backyard fire pit hardscape — Conroe" aria-label="View larger: Backyard fire pit hardscape in Conroe">
+              <img src="assets/images/gallery/gallery-6.jpg" alt="Circular paver fire pit surrounded by seating walls in a backyard" width="800" height="600" loading="lazy" decoding="async" />
+              <span class="gallery__caption">Fire Pit Hardscape</span>
+            </button>
+          </li>
+          <li class="gallery__item reveal">
+            <button class="gallery__button" type="button" data-full="assets/images/gallery/gallery-7.jpg" data-caption="French drain and grading correction — Willis" aria-label="View larger: French drain and grading correction in Willis">
+              <img src="assets/images/gallery/gallery-7.jpg" alt="Gravel-filled french drain trench running along the side of a home" width="800" height="600" loading="lazy" decoding="async" />
+              <span class="gallery__caption">French Drain &amp; Grading</span>
+            </button>
+          </li>
+          <li class="gallery__item reveal">
+            <button class="gallery__button" type="button" data-full="assets/images/gallery/gallery-8.jpg" data-caption="Landscape bed refresh and mulch — The Woodlands" aria-label="View larger: Landscape bed refresh and mulch in The Woodlands">
+              <img src="assets/images/gallery/gallery-8.jpg" alt="Freshly edged landscape beds with new mulch and trimmed shrubs" width="800" height="600" loading="lazy" decoding="async" />
+              <span class="gallery__caption">Bed Refresh &amp; Mulch</span>
+            </button>
+          </li>
+          <li class="gallery__item reveal">
+            <button class="gallery__button" type="button" data-full="assets/images/gallery/gallery-9.jpg" data-caption="Drip irrigation for landscape beds — The Woodlands" aria-label="View larger: Drip irrigation for landscape beds in The Woodlands">
+              <img src="assets/images/gallery/gallery-9.jpg" alt="Drip irrigation line installed along a landscaped bed with mulch" width="800" height="600" loading="lazy" decoding="async" />
+              <span class="gallery__caption">Drip Irrigation Zone</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="cta-banner" aria-labelledby="gallery-cta">
+      <div class="container cta-banner__inner">
+        <div class="cta-banner__text">
+          <h2 class="cta-banner__title" id="gallery-cta">Want work like this on your property?</h2>
+          <p class="cta-banner__lede">Free on-site estimates across The Woodlands and Conroe.</p>
+        </div>
+        <div class="cta-banner__actions">
+          <a class="btn btn--light btn--lg" href="contact.html">Request My Estimate</a>
+          <a class="btn btn--outline-light btn--lg" href="tel:+19362036044">(936) 203-6044</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <img class="footer__logo" src="assets/images/branding/logo.png" alt="Heirloom Outdoor Services logo" width="200" height="110" loading="lazy" />
+        <p class="footer__tagline">Irrigation, hardscapes, and grass installation for The Woodlands and Conroe, Texas.</p>
+        <a class="footer__social" href="https://www.facebook.com/HeirloomoutdoorServices/" target="_blank" rel="noopener noreferrer" aria-label="Heirloom Outdoor Services on Facebook (opens in a new tab)">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13.5 22v-8h2.7l.4-3.1h-3.1V8.9c0-.9.25-1.5 1.55-1.5h1.65V4.6A22 22 0 0 0 14.4 4.5c-2.4 0-4 1.45-4 4.1v2.3H7.7V14h2.7v8z"/></svg>
+          <span>Follow us on Facebook</span>
+        </a>
+      </div>
+      <nav class="footer__col" aria-label="Footer navigation">
+        <h3 class="footer__heading">Explore</h3>
+        <ul class="footer__list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="footer__col">
+        <h3 class="footer__heading">Services</h3>
+        <ul class="footer__list">
+          <li><a href="services.html">Irrigation Installation</a></li>
+          <li><a href="services.html">Sprinkler Repair</a></li>
+          <li><a href="services.html">Hardscapes &amp; Pavers</a></li>
+          <li><a href="services.html">Sod Installation</a></li>
+          <li><a href="services.html">Drainage Solutions</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h3 class="footer__heading">Contact</h3>
+        <address class="footer__address">11756 Magnolia Bend Dr<br />Conroe, TX 77302</address>
+        <ul class="footer__list">
+          <li><a href="tel:+19362036044">(936) 203-6044</a></li>
+          <li><a href="mailto:heirloomoutdoor@gmail.com">heirloomoutdoor@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p class="footer__copy">&copy; <span class="js-year">2025</span> Heirloom Outdoor Services. All rights reserved.</p>
+      <p class="footer__location">Proudly serving The Woodlands, Conroe, Magnolia, Spring, Willis &amp; Montgomery, TX.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" type="button" id="back-to-top" aria-label="Back to top" hidden>
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 4 4 12l1.4 1.4L11 7.8V20h2V7.8l5.6 5.6L20 12z"/></svg>
+  </button>
+
+  <div class="cookie-banner" id="cookie-banner" role="region" aria-label="Cookie consent" hidden>
+    <div class="cookie-banner__inner">
+      <p class="cookie-banner__text">We use local storage to remember your preferences and keep this site working properly. We don't run third-party advertising trackers.</p>
+      <div class="cookie-banner__actions">
+        <button class="btn btn--primary btn--sm" type="button" id="cookie-accept">Accept</button>
+        <button class="btn btn--ghost btn--sm" type="button" id="cookie-decline">Decline</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== LIGHTBOX ====================== -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Project photo viewer" hidden>
+    <div class="lightbox__backdrop" data-lightbox-close></div>
+    <div class="lightbox__content" role="document">
+      <button class="lightbox__close" type="button" id="lightbox-close" aria-label="Close photo viewer">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.3 5.7 12 12l6.3 6.3-1.4 1.4L10.6 13.4 4.3 19.7 2.9 18.3 9.2 12 2.9 5.7 4.3 4.3l6.3 6.3 6.3-6.3z"/></svg>
+      </button>
+      <button class="lightbox__nav lightbox__nav--prev" type="button" id="lightbox-prev" aria-label="Previous photo">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15.4 7.4 14 6l-6 6 6 6 1.4-1.4L10.8 12z"/></svg>
+      </button>
+      <button class="lightbox__nav lightbox__nav--next" type="button" id="lightbox-next" aria-label="Next photo">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m8.6 16.6 1.4 1.4 6-6-6-6-1.4 1.4L13.2 12z"/></svg>
+      </button>
+      <img class="lightbox__image" id="lightbox-image" src="" alt="" width="1200" height="900" />
+      <p class="lightbox__caption" id="lightbox-caption"></p>
+    </div>
+  </div>
+</body>
+</html>
